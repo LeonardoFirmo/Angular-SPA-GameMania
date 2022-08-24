@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+<!--Login section -->
+<section class="container-grid login-BG">
+
+    <h3>Login do cliente</h3>
+
+    <a href="./index.html"><img class="logo logo2" alt="Logotipo Game Mania" src="./assets/img/logobranco.png"></a>
+
+    <form (ngSubmit)="receberDados()">
+        <div class="conteudo-login ">
+            <input  name="email" class="logar" placeholder="Digite usuário ou e-mail" type="email"  [(ngModel)]="userModel.email">
+            <input name="password" class="password" placeholder="Digite a senha " type="password"  [(ngModel)]="userModel.password">
+           <a href="#"> <button type="submit" class="bt-logar">Entrar</button></a>
+        </div>
+    </form>
+
+    
+
+   
+    
+    <p id="mensagem" *ngIf=" mensagem != '' ">{{mensagem}}</p>
+
+
+
+    <div class="cadastroTexto">
+        <h4>Não tem cadastro?</h4>
+        <a href="#"><h3 class="cadastrar">cadastre-se</h3></a>
+        <h4>Ao continuar com o acesso, você concorda com a nossa política de privacidade</h4>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+<app-footer></app-footer>

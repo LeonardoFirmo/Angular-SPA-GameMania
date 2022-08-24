@@ -1,0 +1,285 @@
+/* PAGINA LOGIN CSS */
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+#mensagem{
+    color: red;
+}
+
+.login-BG{
+    
+    height: 700px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+
+.conteudo-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logar{
+    height: 40px;
+    width: 30%;
+}
+.password{
+    height: 40px;
+    margin-top: 0.5vw;
+    width: 30%;
+}
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+ 
+}
+
+
+
+
+
+
+.login-BG h2{
+    font-size:2.2rem ;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+.cadastrar{
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+.login-BG{
+    
+    height: 700px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    margin-bottom: 5vw;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+.login-BG h3{
+    font-size:1.2rem ;
+  
+}
+.login-BG h4{
+    font-size:1.2rem ;
+   
+}
+
+}
+
+@media screen and (max-width:1070px) {
+    
+    
+    .login-BG{
+        
+        height: 550px;
+        color: #FFFFFF;
+        background-color: #0A4FA9;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 2%;
+        padding: 5% 20px;
+    
+    }
+    .logar{
+        height: 40px;
+        width: 50vw;
+        margin-top: 2vw;
+    }
+    .password{
+        height: 40px;
+        margin-top: 0.5vw;
+        width: 50vw;
+    }
+    
+    .bt-logar{
+        display: flex;
+        height: 50px;
+        width: 18vw;
+        margin-top: 20px;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:50%;
+     
+    }
+    .conteudo-login input{
+        font-size: 1rem;
+    }
+}    
+
+
+@media screen and (max-width:650px) {
+.logo2{
+    height: 50px;
+}
+}
+@media screen and (max-width:550px) {
+    
+    .bt-logar{
+        display: flex;
+        height: 50px;
+        width: 40vw;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:50%;
+     
+    }
+    .logar{
+        height: 40px;
+        width: 70vw;
+        margin-top: 2vw;
+    }
+    .password{
+        height: 40px;
+        margin-top: 0.5vw;
+        width: 70vw;
+    }
+
+   
+   
+    .conteudo-login input{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+
+.cadastroTexto h3{
+    font-size:0.7rem;
+}
+.cadastroTexto h4{
+    font-size: 0.7rem;
+}
+.logo2{
+    height:10vw ;
+}
+.login-BG h3{
+    font-size:0.7rem;
+}
+
+
+
+.login-BG{
+    
+    height: 500px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+.logar{
+    height: 40px;
+    width: 70vw;
+    margin-top: 2vw;
+}
+.password{
+    height: 40px;
+    margin-top: 0.5vw;
+    width: 70vw;
+}
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 40vw;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+
+}
+.conteudo-login input{
+    font-size: 0.5rem;
+}
+}
+
+@media screen and (max-width:200px) {
+    .logo2{
+        height:10vw ;
+    }
+    .cadastroTexto h3{
+    font-size:0.5rem;
+    }
+    .cadastroTexto h4{
+    font-size: 0.5rem;
+
+    }
+}
+
+
+@media screen and (max-width:180px) {
+
+.cadastroTexto h3{
+    font-size:0.4rem;
+}
+.cadastroTexto h4{
+    font-size: 0.4rem;
+}
+.logo2{
+    height:10vw ;
+}
+.login-BG{
+
+    height: 400px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 40vw;
+    margin-top: 20px;
+    font-size: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+ 
+}
+
+}

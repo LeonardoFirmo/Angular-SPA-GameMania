@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "email": "leonardo_firmo@email.com",
+      "password": "$2a$10$n7M/ip2nJNct9VdG0bpWaO314.A3d/l3IDGs/vBtQrvCBtvKC8I..",
+      "nome": "leo",
+      "id": 1
+    },
+    {
+      "email": "leo@email.com",
+      "password": "$2a$10$JQaTquiHL5sS8qrY8VY1EuT2N6ITVyE.loaMrxBWsFSpEMh/DKCXy",
+      "nome": "leo",
+      "id": 2
+    },
+    {
+      "email": "leo@email.com",
+      "password": "19921124",
+      "id": 3
+    },
+    {
+      "email": "leo@email.com",
+      "password": "l2361994",
+      "id": 4
+    },
+    {
+      "email": "xx@email.com",
+      "password": "l2361994",
+      "id": 5
+    },
+    {
+      "email": "thiago@email.com",
+      "password": "$2a$10$XVrkmt/edsh3fKRNYY6.QeQ.mb0.XBwfQQWHchCMbmrlTt/fCV0jS",
+      "nome": "thiago",
+      "id": 6
+    },
+    {
+      "email": "leonardo@email.com",
+      "password": "$2a$10$yozsjj0dXa91FYhQAraWhOb9jPJV/k9o6X7hKUyZv/908W.Hl7o9K",
+      "nome": "leo",
+      "id": 7
+    }
+  ]
+}
